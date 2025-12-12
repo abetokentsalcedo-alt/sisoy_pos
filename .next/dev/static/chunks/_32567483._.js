@@ -12,7 +12,7 @@ function getApiBase() {
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
     // Try multiple sources in order of preference
-    return ("TURBOPACK compile-time value", "http://localhost:3000/api") || window.API_BASE || `http://${window.location.hostname}:${window.location.port}/api` || 'http://localhost:3000/api';
+    return ("TURBOPACK compile-time value", "http://localhost:3001/api") || window.API_BASE || `http://${window.location.hostname}:${window.location.port}/api` || 'http://localhost:3000/api';
 }
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);

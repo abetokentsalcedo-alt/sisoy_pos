@@ -33,7 +33,7 @@ __turbopack_context__.s([
 ]);
 function getApiBase() {
     if ("TURBOPACK compile-time truthy", 1) {
-        return ("TURBOPACK compile-time value", "http://localhost:3000/api") || 'http://localhost:3000/api';
+        return ("TURBOPACK compile-time value", "http://localhost:3001/api") || 'http://localhost:3000/api';
     }
     //TURBOPACK unreachable
     ;

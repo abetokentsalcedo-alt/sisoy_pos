@@ -17,10 +17,8 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
--- Database: `sisoy_booking`
---
-
+CREATE DATABASE IF NOT EXISTS `sisoy_booking` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `sisoy_booking`;
 -- --------------------------------------------------------
 
 --
