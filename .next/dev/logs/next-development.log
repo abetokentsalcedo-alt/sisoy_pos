@@ -1,3 +1,8 @@
-[00:00:00.731] Server  LOG      ✓ Ready in 500ms
-[00:00:53.565] Server  LOG        Reload env: .env
-[00:01:05.745] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.688] Server  LOG      ✓ Ready in 448ms
+[00:00:04.465] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.514] Server  LOG     Booking creation request received: {}
+[00:00:07.521] Server  LOG     Inserting transaction: {}
+[00:00:07.522] Server  LOG     Transaction inserted successfully
+[00:00:07.523] Server  LOG     Inserting payment: {}
+[00:00:07.524] Server  LOG     Payment inserted successfully

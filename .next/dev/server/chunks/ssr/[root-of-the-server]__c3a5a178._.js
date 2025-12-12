@@ -37,6 +37,11 @@ function getApiBase() {
     }
     //TURBOPACK unreachable
     ;
+    // In the browser, prefer relative path to avoid port mismatches
+    // This ensures requests hit the same Next.js origin (Turbopack dev, start, or production)
+    const relative = undefined;
+    // Allow explicit override only if set to an absolute URL (e.g., external PHP backend)
+    const envUrl = undefined;
 }
 }),
 "[project]/lib/storage.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {

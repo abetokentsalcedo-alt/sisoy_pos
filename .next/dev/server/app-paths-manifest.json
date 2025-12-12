@@ -1,4 +1,8 @@
 {
-  "/login/page": "app/login/page.js",
-  "/page": "app/page.js"
+  "/(dashboard)/booking/payment/page": "app/(dashboard)/booking/payment/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/customers/route": "app/api/customers/route.js",
+  "/api/test_db_conn/route": "app/api/test_db_conn/route.js",
+  "/login/page": "app/login/page.js"
 }

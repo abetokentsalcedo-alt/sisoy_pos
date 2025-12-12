@@ -44,7 +44,7 @@ function CustomerForm({ selectedClientId, onClientSelect, clients, onClientAdded
             alert("Phone Number must contain only numbers");
             return;
         }
-        const API_BASE = typeof __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] !== 'undefined' && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env && ("TURBOPACK compile-time value", "http://localhost:3000/api") ? ("TURBOPACK compile-time value", "http://localhost:3000/api") : '';
+        const API_BASE = typeof __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"] !== 'undefined' && __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env && ("TURBOPACK compile-time value", "http://localhost:3001/api") ? ("TURBOPACK compile-time value", "http://localhost:3001/api") : '';
         // Try server-first: post to customers API and use returned id when available
         if (("TURBOPACK compile-time value", "object") !== 'undefined' && API_BASE) {
             try {

@@ -11,8 +11,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function getApiBase() {
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
     ;
-    // Try multiple sources in order of preference
-    return ("TURBOPACK compile-time value", "http://localhost:3001/api") || window.API_BASE || `http://${window.location.hostname}:${window.location.port}/api` || 'http://localhost:3000/api';
+    // In the browser, prefer relative path to avoid port mismatches
+    // This ensures requests hit the same Next.js origin (Turbopack dev, start, or production)
+    const relative = '/api';
+    // Allow explicit override only if set to an absolute URL (e.g., external PHP backend)
+    const envUrl = (("TURBOPACK compile-time value", "http://localhost:3000/api") || '').trim();
+    if (envUrl.startsWith('http://') || envUrl.startsWith('https://')) {
+        return envUrl;
+    }
+    return relative;
 }
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
