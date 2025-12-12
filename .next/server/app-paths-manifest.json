@@ -1,0 +1,19 @@
+{
+  "/(dashboard)/accommodations/page": "app/(dashboard)/accommodations/page.js",
+  "/(dashboard)/booking/[id]/page": "app/(dashboard)/booking/[id]/page.js",
+  "/(dashboard)/booking/new/page": "app/(dashboard)/booking/new/page.js",
+  "/(dashboard)/booking/payment/page": "app/(dashboard)/booking/payment/page.js",
+  "/(dashboard)/booking/receipt/page": "app/(dashboard)/booking/receipt/page.js",
+  "/(dashboard)/bookings/page": "app/(dashboard)/bookings/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/reports/page": "app/(dashboard)/reports/page.js",
+  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/accommodations/route": "app/api/accommodations/route.js",
+  "/api/bookings/route": "app/api/bookings/route.js",
+  "/api/customers/route": "app/api/customers/route.js",
+  "/api/test_db_conn/route": "app/api/test_db_conn/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
+}

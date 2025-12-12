@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "booking_number": "BK-20251129-0K1U",
+    "customer_id": 1764439970606,
+    "accommodation_id": null,
+    "check_in": "2025-11-22",
+    "check_out": "2025-11-30",
+    "guests": 1,
+    "total_price": 2800,
+    "status": "confirmed",
+    "created_at": "2025-11-29T18:18:03.548Z",
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "booking_number": "BK-20251129-BEKQ",
+    "customer_id": 1764440379025,
+    "accommodation_id": null,
+    "check_in": "2025-10-31",
+    "check_out": "2025-11-30",
+    "guests": 1,
+    "total_price": 10500,
+    "status": "confirmed",
+    "created_at": "2025-11-29T18:20:12.291Z",
+    "notes": ""
+  }
+]

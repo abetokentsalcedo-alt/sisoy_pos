@@ -1,0 +1,19 @@
+{
+  "/(dashboard)/accommodations/page": "/accommodations",
+  "/(dashboard)/booking/[id]/page": "/booking/[id]",
+  "/(dashboard)/booking/new/page": "/booking/new",
+  "/(dashboard)/booking/payment/page": "/booking/payment",
+  "/(dashboard)/booking/receipt/page": "/booking/receipt",
+  "/(dashboard)/bookings/page": "/bookings",
+  "/(dashboard)/dashboard/page": "/dashboard",
+  "/(dashboard)/reports/page": "/reports",
+  "/(dashboard)/settings/page": "/settings",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/accommodations/route": "/api/accommodations",
+  "/api/bookings/route": "/api/bookings",
+  "/api/customers/route": "/api/customers",
+  "/api/test_db_conn/route": "/api/test_db_conn",
+  "/login/page": "/login",
+  "/page": "/"
+}
